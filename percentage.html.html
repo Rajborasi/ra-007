@@ -1,0 +1,49 @@
+Mathamatics 2<input id=t1 /> <br>
+
+
+Engneering Chemistry<input id=t2 /> <br>
+
+English for communication<input id=t3 /> <br>
+
+BEEE<input id=t4 /> <br>
+
+Engneering Graphic<input id=t5 /> <br>
+
+
+
+<input type=button value=+ onclick="calculate()" /> <br>
+
+
+<output id=out1 />
+<script>
+
+
+function calculate()
+
+
+{
+
+
+a=parseInt(t1.value);
+
+
+b=parseInt(t2.value);
+
+
+c=parseInt(t3.value);
+
+d=parseInt(t4.value);
+
+e=parseInt(t5.value);
+
+f=a+b+c+d+e;
+
+
+out1.value='Add : ' + f ;
+
+per=(f/500)*100;
+out1.value='per : ' + per ;
+}
+
+
+</script>
